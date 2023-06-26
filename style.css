@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(grey,beige);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nameContainer{
+    background-color: deepskyblue;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: capitalize;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.contactInfo{
+    text-align: center;
+    font-size: 25px;
+    background-color: deepskyblue;
+    margin-left: 35px;
+}
+p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.experiences{
+    background-color: deepskyblue;
+}
+.skillsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: larger;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.softSkills,.hardSkills{
+    width: 50%;
+    background-color: deepskyblue;
+    font-size: 35px;
+    padding:8px;
+}
+.experiences{
+    text-align: justify;
+    margin-top: 35px;
+    margin-left: 35px;
+    font-size: 35px;
+    padding: 8px;
+}
